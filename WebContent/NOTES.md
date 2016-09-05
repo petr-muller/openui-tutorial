@@ -35,3 +35,10 @@ Components
  * The component is named Component.js.
  * Together with all UI assets of the app, the component is located in the webapp folder.
  * The index.html file is located in the webapp folder if it is used productively.
+ 
+Manifest
+========
+ * single `manifest.json` file in the project root
+ * Use translatable strings for the title and the description of the app.
+
+ 
