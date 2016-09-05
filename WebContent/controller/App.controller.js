@@ -1,10 +1,20 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller", // Required module
-	"sap/m/MessageToast"          // Required module
+	"sap/m/MessageToast",         // Required module
+	"sap/ui/model/json/JSONModel"
 
-], function(Controller, MessageToast) {
+], function(Controller, MessageToast, JSONModel) {
 	"use strict";
 	return Controller.extend("sap.ui.demo.wt.controller.App", {
+		onInit : function() {
+			var oData = {
+					recipient: {
+						name: "World"
+					}
+			};
+			var oModel = new JSONModel(oData);
+			this.getView().setModel(oModel);
+		},
 		onShowHello : function() {
 			MessageToast.show("Hereby I toast to the world")
 		}
