@@ -30,3 +30,8 @@ Internationalization
  * Never concatenate strings that are translated, always use placeholders.
  * Use Unicode escape sequences for special characters.
 
+Components
+==========
+ * The component is named Component.js.
+ * Together with all UI assets of the app, the component is located in the webapp folder.
+ * The index.html file is located in the webapp folder if it is used productively.
