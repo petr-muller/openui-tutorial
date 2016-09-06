@@ -40,5 +40,9 @@ Manifest
 ========
  * single `manifest.json` file in the project root
  * Use translatable strings for the title and the description of the app.
+ 
+Test Practices
+==============
+ * It is a SAPUI best practice to separate test code from production code on the directory level
 
  
