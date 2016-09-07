@@ -45,4 +45,10 @@ Test Practices
 ==============
  * It is a SAPUI best practice to separate test code from production code on the directory level
 
- 
+Unit tests
+==========
+ * All unit tests are placed in the webapp/test/unit folder of the app.
+ * Files in the test suite end with *.qunit.html.
+ * The *.qunit.html file triggers all unit tests of the app.
+ * All dependencies are replaced by stubs to test only the functionality in scope.
+
