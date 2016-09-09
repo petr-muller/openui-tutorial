@@ -20,6 +20,7 @@ sap.ui.define([
 			this.setModel(oModel);
 	
 			this.helloDialog = new HelloDialog();
+			this.getRouter().initialize();
 		},
 		exit : function() {
 			this.helloDialog.destroy();
